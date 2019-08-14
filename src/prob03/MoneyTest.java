@@ -8,7 +8,7 @@ public class MoneyTest {
         Money three = new Money( 3 );
         Money ten   = new Money( 10 );
         
-        if(    five.equals( two.add( three ) )
+        if( five.equals( two.add( three ) )
             && three.equals( five.minus( two ) )
             && ten.equals( five.multiply( two ) )
             && two.equals( ten.devide( five ) ) )  {
